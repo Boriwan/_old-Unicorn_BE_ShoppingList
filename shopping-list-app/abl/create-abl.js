@@ -24,7 +24,7 @@ function CreateAbl(req, res) {
 
   let shoppingList = {
     name: body.name,
-    owner: "",
+    owner: body.ownerId,
     members: [],
     items: [],
     isArchived: false
